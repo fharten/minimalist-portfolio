@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Big Shoulders';
+  src: url('/fonts/BigShoulders.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
