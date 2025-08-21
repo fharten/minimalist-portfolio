@@ -46,4 +46,36 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 2,
+    title: 'Tokyo Cofffee Shop',
+    description:
+      'I wanted to create a 3D website that immediately catches attention at first glance.',
+    subDescription: [
+      'To achieve this, I imagined a Tokyo coffee shop and designed how it could be presented online in an interactive and playful way.',
+      'The project features slight animations and 3D interactivity to engage users and keep them interested while exploring the coffee shop experience.',
+      'It blends aesthetic design with technical creativity, giving the visitor a sense of stepping into a warm, modern Tokyo café.',
+    ],
+    year: '2025',
+    href: 'https://tsc-three-js.vercel.app/',
+    logo: '',
+    image: '/assets/projects/tsc-main.gif',
+    tags: [
+      {
+        id: 1,
+        name: 'TypeScript',
+        path: 'https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white',
+      },
+      {
+        id: 2,
+        name: 'React.js',
+        path: 'https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB',
+      },
+      {
+        id: 3,
+        name: 'TailwindCSS',
+        path: 'https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white',
+      },
+    ],
+  },
 ];
