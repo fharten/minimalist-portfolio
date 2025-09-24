@@ -1,18 +1,20 @@
 export const projects = [
   {
     id: 1,
-    title: 'Blog',
+    title: 'Happy2Help',
     description:
-      'My goal was to write blog posts directly in Obsidian and automatically integrate them into the blog.',
+      'Our app connects passionate volunteers with impactful NGOs. Discover meaningful projects, apply with a tap, and turn your time and talent into real-world change. One platform. Countless causes. A better world—together.',
     subDescription: [
-      'I chose AstroJS because it works seamlessly with markdown files, the file format used by Obsidian.',
-      "The blog features a 'techy' aesthetic, fitting to the blog's theme.",
-      'Nano Stores was a perfect fit as it is a lightweight state manager, allowing me to store and modify all posts in one state, enabling features like search implementation.',
+      'We chose Next.js for its powerful full-stack capabilities and seamless routing, making it ideal for building a performant, scalable web app.',
+      'Tailwind CSS and ShadCN UI were chosen to rapidly build a clean, accessible, and modern UI without compromising on customizability.',
+      'Node.js powers the backend, providing a lightweight and efficient runtime for handling API routes.',
+      'SQLite was selected for its simplicity and portability, perfect for a lightweight app with structured data needs.',
+      'TypeORM ties it all together, offering a TypeScript-friendly ORM that simplifies database operations and keeps the codebase consistent.',
     ],
     year: '2025',
-    href: 'https://astrojs-tailwind-obsdian-blog.vercel.app/',
+    href: 'https://happy2help.app/',
     logo: '',
-    image: '/assets/projects/otg_deployed.png',
+    image: '/assets/projects/h2h.png',
     tags: [
       {
         id: 1,
@@ -48,6 +50,53 @@ export const projects = [
   },
   {
     id: 2,
+    title: 'Blog',
+    description:
+      'My goal was to write blog posts directly in Obsidian and automatically integrate them into the blog.',
+    subDescription: [
+      'I chose AstroJS because it works seamlessly with markdown files, the file format used by Obsidian.',
+      "The blog features a 'techy' aesthetic, fitting to the blog's theme.",
+      'Nano Stores was a perfect fit as it is a lightweight state manager, allowing me to store and modify all posts in one state, enabling features like search implementation.',
+    ],
+    year: '2025',
+    href: 'https://astrojs-tailwind-obsdian-blog.vercel.app/',
+    logo: '',
+    image: '/assets/projects/otg.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Astro',
+        path: 'https://img.shields.io/badge/Astro-1a1a1a?style=for-the-badge&logo=astro&logoColor=ffffff',
+      },
+      {
+        id: 2,
+        name: 'TypeScript',
+        path: 'https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white',
+      },
+      {
+        id: 3,
+        name: 'React.js',
+        path: 'https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB',
+      },
+      {
+        id: 4,
+        name: 'TailwindCSS',
+        path: 'https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white',
+      },
+      {
+        id: 5,
+        name: 'Nano Stores',
+        path: 'https://img.shields.io/badge/Nano_Stores-333333?style=for-the-badge&logoColor=white',
+      },
+      {
+        id: 6,
+        name: 'Obsidian',
+        path: 'https://img.shields.io/badge/Obsidian-483699?style=for-the-badge&logo=obsidian&logoColor=white',
+      },
+    ],
+  },
+  {
+    id: 3,
     title: 'Tokyo Cofffee Shop',
     description:
       'I wanted to create a 3D website that immediately catches attention at first glance.',
@@ -59,7 +108,7 @@ export const projects = [
     year: '2025',
     href: 'https://tsc-three-js.vercel.app/',
     logo: '',
-    image: '/assets/projects/tsc-main.gif',
+    image: '/assets/projects/tsc.gif',
     tags: [
       {
         id: 1,
